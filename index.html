@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTTP Status Checker</title>
+    <meta name="HTTP Status Codes" content="HTTP Codes with images">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="shortcut icon" href="image/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <h1 class="header">HTTP Status Codes</h1>
+    <div>
+        <div class="cont">
+            <div class="input-wrapper cont">
+                <input id="usrInp" class="inpbox cont" type="number" placeholder="Enter status code">
+                <button class="check zoom" onclick="fetchInfo()">Check info</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="imgSrc">
+            <img src="image/InitialSrc.jpeg" id="gif" height="200" width="300" alt="Sorry, no image found for this code 😄">
+            <div class="info">
+                <h2 id="code"></h2>
+                <h2 id="codeInfo"></h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script Files -->
+    <script src="script.js"></script>
+    <script src="statusCode.js"></script>
+</body>
+</html>
