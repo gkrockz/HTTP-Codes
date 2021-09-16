@@ -7,6 +7,8 @@
   
 2️⃣ An image will be displayed, by which one can easily understand what kind of response that the status code denotes.
 
+> Some sample status codes that you can try out: **`100, 200, 206, 400, 404, 402, 421, 502 etc.`**
+
 ---
 
 > **HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes**:
