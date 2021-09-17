@@ -3,7 +3,7 @@
 #### 🔁 How it works:
   
 
-1️⃣ Enter any status code that you want to know about.
+1️⃣ Enter any HTTP response code, that you want to know about.
   
 2️⃣ An image will be displayed, by which one can easily understand what kind of response that the status code denotes.
 
