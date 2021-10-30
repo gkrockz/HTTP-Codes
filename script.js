@@ -1,21 +1,21 @@
 // calls driver function 
 function fetchInfo() {
-    var code = document.getElementById("usrInp").value;
-    fetchGif(code);
+    var code = document.getElementById("usrinp").value;
+    fetchGif(code); 
 }
 
 // fetch GIF/jpg based on HTTP status code
 function fetchGif(code) {
     try {
+        var gif = document.getElementById("gif");
+        gif.style.display="initial";
         var status = document.getElementById("code");
         var codeInfo = document.getElementById("codeInfo");
         var gif =  document.getElementById("gif");
         var info = isCodeValid(code);
-        document.getElementById("usrInp").value = "";
+        document.getElementById("usrinp").value = "";
         status.textContent = `Response code: ${code}`;
-
         if(info != false) { 
-            gif.style.display="flex";
             gif.src = `https://vadivelu.anoram.com/gif/${code}`;
             gif.onerror = function () {
                 console.log('image not available in gif format, so Loading it in jpg format');
