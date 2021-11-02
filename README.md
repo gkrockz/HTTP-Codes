@@ -21,3 +21,5 @@
 ---
 
 > **Note:** Images / Gifs are limited to few HTTP response status codes only.
+>
+> 📑 Reference: [**`MDN`**](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
